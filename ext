@@ -1,0 +1,11 @@
+android {
+    // Use the following syntax to access properties you defined at the project level:
+    // rootProject.ext.ext
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    ...
+}
+...
+dependencies {
+    implementation "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
+    ...
+}
